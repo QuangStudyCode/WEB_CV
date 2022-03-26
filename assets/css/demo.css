@@ -1,0 +1,9 @@
+/* togle is chuyển đổi giữa hai lớp cho một phần tử  */
+
+.dark-theme{
+    background-color: aquamarine;
+}
+
+:root{
+    background-color: aquamarine;
+}
