@@ -2,10 +2,15 @@
 body{
     font-family: 'Nunito Sans', sans-serif !important;
 }
+
+:root{
+    /* declare variable background-color gray */
+    --color-bg-gray:#f4f6f8;
+}
 /* css for page content */
 .page-content{
     height: 300px;
-    background-color: #f4f6f8;
+    background-color: var(--color-bg-gray);
     transition: all .5s ease;
 }
 .page-content h3{
@@ -87,8 +92,7 @@ body{
 }
 
 .content-list-member img:hover{
-    width: 315px;
-    height: 315px;
+    opacity: 0.8;
     transition: 0.5s;
     cursor: pointer;
 }
